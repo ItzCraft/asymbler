@@ -1,0 +1,49 @@
+type: ConsumeGenerator
+size: 2
+hasLiquids: false
+canOverdrive: false
+itemDuration: 170
+baseExplosiveness: 0
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  {
+  type: DrawParticles
+  fadeMargin: 1
+  particleLife: 55
+  particleRad: 3
+  particles: 15
+  particleSize: 1.5
+  rotateScl: 0.45
+  }
+  {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+consumes: {
+    "items": [
+    kernir/3
+    ]
+}
+powerProduction: 0.88
+category: power
+requirements: [
+  kernir/40
+]
+research: {
+    parent: "core-Hope",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "land-reef"
+        }
+    ]
+},
+researchCost: [
+    kernir/75
+    ]

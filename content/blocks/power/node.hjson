@@ -1,0 +1,14 @@
+type: PowerNode
+size: 1
+maxNodes: 10
+laserRange: 10
+laserColor1: 000000
+laserColor2: 454545
+category: power
+requirements: [
+  kernir/6
+]
+research: generator
+researchCost: [
+    kernir/35
+    ]

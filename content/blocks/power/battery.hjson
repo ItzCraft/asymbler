@@ -1,0 +1,28 @@
+type: battery
+size: 2
+	"fullLightColor": "3b3b3b",
+	"emptyLightColor": "757474",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+consumes: {
+    powerBuffered: 1350
+}
+category: power
+requirements: [
+  kernir/45
+]
+research: {
+    parent: "node",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Land-reef"
+        }
+    ]
+},
+researchCost: [
+    kernir/250
+    ]
