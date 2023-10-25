@@ -1,0 +1,74 @@
+    generator: "PlanetGenerator",
+    parent: "sun",
+    iconColor: 10d7e6,
+    orbitRadius: 35,
+    hasAtmosphere: true,
+    updateLighting: false,
+    atmosphereRadIn: 0.01,
+    atmosphereRadOut: 0.2,
+    atmosphereColor: 5456d6,
+    drawOrbit: true,
+    
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-Hope",
+    sectorSeed: 55,
+    startSector: 8,
+    sectorSize: 1.5,
+    clearSectorOnLose: true,
+    allowSectorInvasion: true,
+	allowLaunchToNumbered: false,
+    radius: 1,
+
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Perlane
+  seed: 2
+  speed: 1.5
+  radius: 0.03
+  divisions: 5
+  color: ffffff
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
+
+    "mesh": {
+      "type": "NoiseMesh",
+      "planet": "Perlane",
+      "seed": 55,
+      "color1": "1b0b99",
+      "color2": "034aa6",
+      "divisions": 4,
+      "radius": 0.8,
+      "octaves": 8,
+      "persistence": 1,
+      "scale": 1.5,
+      "mag": 1
+      }
