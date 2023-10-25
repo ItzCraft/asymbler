@@ -1,0 +1,13 @@
+type: Junction
+name: naritium junction
+health: 80
+speed: 12
+capacity: 8
+requirements: [
+  naritium/4
+] 
+category: distribution
+research: naritium-router
+researchCost: [
+    naritium/60
+  ]

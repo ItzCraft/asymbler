@@ -1,0 +1,15 @@
+ "type": "ItemBridge",
+  "name": "Naritium bridge",
+  "description": "just a bridge.",
+  "health": 80,
+  "range": 5,
+  "transportTime": 4,
+  "hasPower": false,
+requirements: [
+  naritium/8
+] 
+category: distribution
+research: naritium-junction
+researchCost: [
+    naritium/115
+  ]

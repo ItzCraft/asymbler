@@ -1,0 +1,11 @@
+type: Sorter
+name: naritium sorter
+health: 80
+requirements: [
+  naritium/5
+] 
+category: distribution
+research: naritium-bridge
+researchCost: [
+    naritium/100
+  ]

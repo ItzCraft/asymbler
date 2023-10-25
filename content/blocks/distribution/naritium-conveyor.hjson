@@ -1,0 +1,24 @@
+type: Conveyor
+name: naritium conveyor
+hasShadow: true
+health: 80
+speed: 0.05
+displayedSpeed: 12
+junctionReplacement: naritium-junction
+bridgeReplacement: naritium-bridge
+requirements: [
+  naritium/1
+]
+category: distribution
+research: {
+    parent: "core-Hope",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "water-ruins"
+        }
+    ]
+}
+researchCost: [
+    naritium/15
+  ]

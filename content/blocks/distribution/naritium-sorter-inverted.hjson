@@ -1,0 +1,12 @@
+type: Sorter
+name: naritium sorter-inverted
+health: 80
+invert: true
+requirements: [
+  naritium/6
+] 
+category: distribution
+research: naritium-sorter
+researchCost: [
+    naritium/115
+  ]
