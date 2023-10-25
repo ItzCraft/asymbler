@@ -1,0 +1,9 @@
+planet: perlane
+captureWave: 18
+sector: 8
+research: {
+    parent: core-Hope
+}
+difficulty: 2
+alwaysUnlocked: true
+overrideLaunchDefaults: true
