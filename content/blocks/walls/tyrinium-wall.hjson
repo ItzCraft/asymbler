@@ -1,0 +1,12 @@
+    "type": "Wall",
+    "name": "tyrinium wall"
+    "health":200,
+    "size": 1,
+    category: defense
+requirements: [
+  tyrinium/6
+]
+research: core-Hope
+researchCost: [
+    tyrinium/100
+  ]
