@@ -1,0 +1,16 @@
+type: item
+name: naritium
+description: Rare material. Good for some energy on Perlane planet.
+  "cost": 1,
+  "color": "39ddfa",
+  "flammability": 0,
+  "explosiveness": 0.05,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 4
+	"research": "core-Hope"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

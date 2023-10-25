@@ -1,0 +1,15 @@
+type: item
+description: good material for some starter defense on Perlane planet.
+  "cost": 1,
+  "color": "4e5194",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 2
+	"research": "naritium"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

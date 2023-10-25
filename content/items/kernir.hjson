@@ -1,0 +1,15 @@
+type: item
+description: kernir. Most common material for energy on Perlane.
+  "cost": 1,
+  "color": "048540",
+  "flammability": 0.1,
+  "explosiveness": 0,
+  "radioactivity": 0.1,
+  "charge": 0,
+  hardness: 3
+	"research": "asyuritium"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

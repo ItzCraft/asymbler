@@ -1,0 +1,15 @@
+type: item
+description: using only with Naritium ore on Perlane planet.
+  "cost": 1,
+  "color": "048540",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 2
+	"research": "naritium"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

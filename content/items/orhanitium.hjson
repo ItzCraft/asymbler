@@ -1,0 +1,15 @@
+type: item
+description: alloy for units production. On Perlane planet.
+  "cost": 1,
+  "color": "4d189e",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 2
+	"research": "dried-corals"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

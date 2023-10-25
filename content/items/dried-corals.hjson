@@ -1,0 +1,16 @@
+type: item
+name: dried corals
+description: dried corals.
+  "cost": 1,
+  "color": "4f0606",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 2
+	"research": "corals"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

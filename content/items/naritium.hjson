@@ -1,0 +1,15 @@
+type: item
+description: very usefull and common material on Perlane planet.
+  "cost": 1,
+  "color": "ff7b08",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+	"research": "core-Hope"
+ "alwaysUnlocked": True
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

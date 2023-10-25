@@ -1,0 +1,15 @@
+type: item
+description: corals used for some liquids. on Perlane planet.
+  "cost": 1,
+  "color": "cc8c47",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 3
+	"research": "asyuritium"
+ "alwaysUnlocked": False
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]
