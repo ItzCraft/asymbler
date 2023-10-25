@@ -1,0 +1,43 @@
+type: UnitFactory
+name: Constructor flying units
+health: 500
+size: 3
+consumes: {
+  power: 2.5
+}
+plans: [
+  {
+    unit: orhaunit
+    time: 1500
+    requirements: [
+      naritium/100
+      orhanitium/25
+    ]
+  }
+  {
+    unit: wareterunit
+    time: 2000
+    requirements: [
+      naritium/300
+      orhanitium/95
+    ]
+  }
+]
+requirements: [
+  naritium/200
+  orhanitium/150
+]
+category: units
+research: {
+    parent: "core-Hope",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "land-reef"
+        }
+    ]
+}
+researchCost: [
+    naritium/500
+    orhanitium/350
+  ]
