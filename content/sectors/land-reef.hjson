@@ -1,0 +1,15 @@
+planet: perlane
+loadout: "core-Hope"
+sector: 12
+    research: {
+        parent: "water-ruins",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "water-ruins"
+            }
+        ]
+    },
+difficulty: 3
+overrideLaunchDefaults: true
+addStartingItems: true 
