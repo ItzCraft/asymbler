@@ -1,0 +1,27 @@
+  "name": "Asyuritium drill",
+  "description": "Better drill then naritium drill. Not bigger but stronger and can mine coralls."
+  "type": "Drill",
+  "size": 2,
+  "itemCapacity": 15,
+  "tier": 3,
+  "drillTime": 500,
+  "drawMineItem": false,
+  requirements: [
+    asyuritium/95
+    naritium/25
+  ]
+  "category": "production",
+research: {
+    parent: "naritium-drill",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "land-reef"
+        }
+    ]
+}
+researchCost: [
+    naritium/100
+    asyuritium/250
+    tyrinium/50
+  ]

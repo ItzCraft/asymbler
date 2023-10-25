@@ -1,0 +1,23 @@
+  "description": "Dont very big and strong drill. But good for start."
+  "type": "Drill",
+  "size": 2,
+  "itemCapacity": 10,
+  "tier": 2,
+  "drillTime": 600,
+  "drawMineItem": false,
+  requirements: [
+    naritium/20
+  ]
+  "category": "production",
+research: {
+    parent: "core-Hope",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "water-ruins"
+        }
+    ]
+}
+researchCost: [
+    naritium/75
+  ]
