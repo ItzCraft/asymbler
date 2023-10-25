@@ -1,0 +1,77 @@
+    "type": "flying",
+    "name": "orha",
+    "lowAltitude": true,
+    "speed": 3,
+    "accel": 0.05,
+    "drag": 0.03,
+    "flying": true,
+    "health": 120,
+    "hitSize": 7,
+    "armor": 1,
+    "itemCapacity": 0,
+  "outlineColor": "21047a",
+    "engineOffset": 6,
+    "faceTarget": true,
+weapons: [
+  {
+    name: orhaunit-gun
+    alternate: false
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 20
+    recoil: 1
+    inaccuracy: 6
+    shootSound: pew
+    bullet: {
+      speed: 3.5
+      lifetime: 20
+      damage: 5
+      pierce: false
+      pierceBuilding: false
+      pierceCap: 1
+      width: 3
+      height: 10
+        frontColor: 21047a
+        backColor: ffffff
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 10
+          line: true
+          lifetime: 10
+          length: 10
+          lenFrom: 2
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 21047a
+          colorTo: ffffff
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 15
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 21047a
+          colorTo: ffffff
+        }
+      ]
+    }
+  }
+ ] 
+research: {
+    parent: "Constructor-1",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "land-reef"
+        }
+    ]
+},
+researchCostMultiplier: 0

@@ -1,0 +1,24 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 2,
+    "accel": 0.1,
+    "drag": 0.05,
+    "flying": true,
+    "health": 150,
+    "hitSize": 10,
+    "armor": 1,
+    "itemCapacity": 35,
+  "outlineColor": "36363c",
+    "engineOffset": 6,
+    "faceTarget": true,
+    controller: BuilderAI
+    mineTier: 1
+    mineSpeed: 4.5
+    buildSpeed: 1
+    buildBeamOffset: 5
+    isEnemy: false
+  
+    trailChance: 0.3
+    trailLength: 3
+    trailWidth: 2
+    trailColor: 21047a

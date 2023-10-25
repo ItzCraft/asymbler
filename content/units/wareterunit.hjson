@@ -1,0 +1,77 @@
+    "type": "flying",
+    "name": "wareter",
+    "lowAltitude": true,
+    "speed": 1.5,
+    "accel": 0.05,
+    "drag": 0.03,
+    "flying": true,
+    "health": 250,
+    "hitSize": 7,
+    "armor": 2,
+    "itemCapacity": 0,
+  "outlineColor": "21047a",
+    "engineOffset": 6,
+    "faceTarget": true,
+weapons: [
+  {
+    name: wareterunit-gun
+    alternate: false
+    x: 0
+    y: 0
+    shootY: 0
+    layerOffset: 0
+    reload: 40
+    recoil: 3
+    inaccuracy: 6
+    shootSound: malignShoot
+    bullet: {
+      speed: 2
+      lifetime: 40
+      damage: 25
+      pierce: false
+      pierceBuilding: false
+      pierceCap: 1
+      width: 3
+      height: 20
+        frontColor: 2e32a6
+        backColor: ffffff
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: explosion
+          particles: 1
+          line: true
+          lifetime: 10
+          length: 10
+          lenFrom: 2
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 5e5e5e
+          colorTo: ffffff
+        }
+        {
+          type: shockwave
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 15
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 5e5e5e
+          colorTo: ffffff
+        }
+      ]
+    }
+  }
+ ] 
+research: {
+    parent: "Constructor-1",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "water-ruins"
+        }
+    ]
+},
+researchCostMultiplier: 0
