@@ -6,3 +6,5 @@ version: "0.1"
 minGameVersion: "144"
 hidden: false
 subtitle: Yes.
+dependencies: []
+hideBrowser: false 
