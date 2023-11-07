@@ -9,7 +9,7 @@
     "hitSize": 7,
     "armor": 15,
     "itemCapacity": 0,
-  "outlineColor": "21047a",
+  "outlineColor": "000000",
     "engineOffset": 6,
     "faceTarget": true,
 weapons: [
