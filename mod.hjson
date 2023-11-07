@@ -4,6 +4,7 @@ author: [blue]"Itz[yellow]Craft"
 description: "[red]! MOD IN ALPHA VERSION. I'm literally [red]dont [white]recommened play campany. I need helper with textures rly"
 version: "0.1"
 minGameVersion: "136"
+hidden: false
 subtitle: Yes.
 dependencies: []
 hideBrowser: false 
