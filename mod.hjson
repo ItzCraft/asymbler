@@ -11,6 +11,6 @@ repo: "itzcraft/asymbler"
 minGameVersion: "136"
 
 hidden: false
-subtitle: Yes.
+subtitle: "Yes."
 dependencies: []
 hideBrowser: false 
