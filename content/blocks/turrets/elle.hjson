@@ -1,0 +1,72 @@
+"type": ItemTurret,
+"name": elle
+"description": "Very Default turret."
+"size": 2,
+"health": 450,
+range: 170,
+rotateSpeed: 5,
+reload: 30
+burstSpacing: 1
+shots: 1
+xRand: 1
+recoilAmount: 3
+shootSound: shootSmite
+ammoTypes: {
+  naritium: {
+    type: BasicBulletType,
+    speed: 5
+    lifetime: 39
+    damage: 10
+    width: 5
+    height: 7
+    frontColor: b2afb3
+    backColor: d5d2d6
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: true
+    explodeRange: 1
+    splashDamageRadius: 1
+    splashDamage: 15
+    hitEffect: pointHit
+  }
+}
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 15
+              length: 20
+              sizeFrom: 3
+              sizeTo: 1
+              colorFrom: c8dee3
+              colorTo: dfe8eb
+              strokeFrom: 1
+              strokeTo: 1
+              interp: pow3Out
+              spin: 1
+              sizeInterp: pow2In
+              region: moon-mod-shell
+            }
+        ]
+    }
+category: turret
+requirements: [
+  naritium/45
+  tyrinium/10
+]
+research: {
+    parent: "core-Hope",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "water-ruins"
+        }
+    ]
+}
+researchCost: [
+    naritium/200
+    tyrinium/75
+  ]

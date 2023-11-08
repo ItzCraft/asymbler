@@ -1,0 +1,92 @@
+"type": ItemTurret,
+"name": The Bearer
+"description": "Good item turret."
+"size": 2,
+"health": 750,
+range: 200,
+rotateSpeed: 4.5,
+reload: 75
+burstSpacing: 1
+shots: 1
+xRand: 1
+recoilAmount: 3
+shootSound: shootSmite
+ammoTypes: {
+  asyuritium: {
+    type: BasicBulletType,
+    speed: 3.5
+    lifetime: 45
+    damage: 35
+    width: 5
+    height: 7
+    frontColor: b2afb3
+    backColor: d5d2d6
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 10
+    collidesTiles: true
+    explodeRange: 0
+    splashDamageRadius: 0
+    splashDamage: 0
+    hitEffect: pointHit
+  },
+
+  dried-corals: {
+    type: BasicBulletType,
+    speed: 4
+    lifetime: 40
+    damage: 40
+    width: 4
+    height: 6
+    frontColor: b2afb3
+    backColor: d5d2d6
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 10
+    collidesTiles: true
+    explodeRange: 0
+    splashDamageRadius: 0
+    splashDamage: 0
+    hitEffect: pointHit
+  } 
+}
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 15
+              length: 20
+              sizeFrom: 3
+              sizeTo: 1
+              colorFrom: c8dee3
+              colorTo: dfe8eb
+              strokeFrom: 1
+              strokeTo: 1
+              interp: pow3Out
+              spin: 1
+              sizeInterp: pow2In
+              region: moon-mod-shell
+            }
+        ]
+    }
+category: turret
+requirements: [
+  naritium/250
+  tyrinium/100
+]
+research: {
+    parent: "Defarender",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "land-reef"
+        }
+    ]
+}
+researchCost: [
+    naritium/750
+    tyrinium/450
+    dried-corals/100
+  ]
