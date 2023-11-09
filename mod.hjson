@@ -1,16 +1,15 @@
 name: "asymbler"
-displayName: "Asymbler"
-author: "[blue]Itz[yellow]Craft"
-description: 
-"
-! MOD IN BETA VERSION. I'm literally dont recommened play campany.
-I need helper with textures rly"
-
-version: "0.1"
 repo: "itzcraft/asymbler"
-minGameVersion: "136"
+minGameVersion: 136
+version: "v0.1.0"
 
-hidden: false
-subtitle: "Yes."
+displayName: "Asymbler"
+author: "[yellow[]]Itz[cyan[]]Craft"
+subtitle: "BETA"
+description:
+'''
+MOD IN BETA VERSION. I'M LITERALLY DONT RECOMMENED PLAY CAMPANY RIGHT NOW. I need help with textures xd
+'''
+
 dependencies: []
-hideBrowser: false 
+hideBrowser: false
