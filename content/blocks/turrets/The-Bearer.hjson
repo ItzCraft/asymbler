@@ -73,11 +73,11 @@ ammoTypes: {
     }
 category: turret
 requirements: [
-  naritium/250
-  tyrinium/100
+  naritium/200
+  tyrinium/125
 ]
 research: {
-    parent: "Defarender",
+    parent: "elle",
     objectives: [
         {
             type: "SectorComplete",
@@ -86,7 +86,7 @@ research: {
     ]
 }
 researchCost: [
-    naritium/750
-    tyrinium/450
-    dried-corals/100
+    naritium/650
+    tyrinium/400
+    dried-corals/75
   ]
